@@ -15,6 +15,7 @@ export default {
       </>
     ),
   },
+
   component: Box,
 } as Meta<BoxProps>
 
