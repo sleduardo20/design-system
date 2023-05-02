@@ -7,6 +7,13 @@ export default {
     src: 'https://avatars.githubusercontent.com/u/56615577?v=4',
     alt: 'Eduardo Lima',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   component: Avatar,
 } as Meta<AvatarProps>
 
