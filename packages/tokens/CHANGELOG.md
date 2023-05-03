@@ -1,4 +1,4 @@
-# @igniteui-sleduardodev/tokens
+# @igniteui-sleduardo20/tokens
 
 ## 2.0.0
 

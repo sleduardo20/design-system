@@ -1,4 +1,4 @@
-# @igniteui-sleduardodev/ts-config
+# @igniteui-sleduardo20/ts-config
 
 ## 2.0.0
 

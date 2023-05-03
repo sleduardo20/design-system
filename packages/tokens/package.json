@@ -1,5 +1,5 @@
 {
-  "name": "@igniteui-sleduardodev/tokens",
+  "name": "@igniteui-sleduardo20/tokens",
   "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -10,12 +10,15 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@igniteui-sleduardodev/ts-config": "*",
-    "@igniteui-sleduardodev/eslint-config": "*",
+    "@igniteui-sleduardo20/ts-config": "*",
+    "@igniteui-sleduardo20/eslint-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }

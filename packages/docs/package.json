@@ -1,5 +1,5 @@
 {
-  "name": "@igniteui-sleduardodev/docs",
+  "name": "@igniteui-sleduardo20/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,9 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "deploy-storybook": "storybook-to-ghpages"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
@@ -31,10 +34,10 @@
     "storybook": "^7.0.7"
   },
   "dependencies": {
-    "@igniteui-sleduardodev/eslint-config": "*",
-    "@igniteui-sleduardodev/react": "*",
-    "@igniteui-sleduardodev/tokens": "*",
-    "@igniteui-sleduardodev/ts-config": "*",
+    "@igniteui-sleduardo20/eslint-config": "*",
+    "@igniteui-sleduardo20/react": "*",
+    "@igniteui-sleduardo20/tokens": "*",
+    "@igniteui-sleduardo20/ts-config": "*",
     "@storybook/addon-a11y": "^7.0.7",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",

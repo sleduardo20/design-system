@@ -1,6 +1,9 @@
 {
-  "name": "@igniteui-sleduardodev/ts-config",
+  "name": "@igniteui-sleduardo20/ts-config",
   "version": "2.0.0",
   "license": "MIT",
+     "publishConfig": {
+    "access": "public"
+  },
   "private": true
 }

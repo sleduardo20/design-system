@@ -1,5 +1,5 @@
 {
-  "name": "@igniteui-sleduardodev/react",
+  "name": "@igniteui-sleduardo20/react",
   "version": "2.0.0",
   "license": "MIT",
   "description": "",
@@ -11,12 +11,15 @@
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@igniteui-sleduardodev/eslint-config": "*",
-    "@igniteui-sleduardodev/tokens": "*",
-    "@igniteui-sleduardodev/ts-config": "*",
+    "@igniteui-sleduardo20/eslint-config": "*",
+    "@igniteui-sleduardo20/tokens": "*",
+    "@igniteui-sleduardo20/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",

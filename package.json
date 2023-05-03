@@ -1,3 +1,4 @@
+
 {
   "private": true,
   "workspaces": [
@@ -10,8 +11,11 @@
     "version-packages": "changeset version",
     "release": "turbo run build --filter=!docs && changeset publish"
   },
+   "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
-    "turbo": "^1.9.3"
+    "@changesets/cli": "^2.25.0",
+    "turbo": "^1.5.5"
   }
 }

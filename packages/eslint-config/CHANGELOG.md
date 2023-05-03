@@ -1,4 +1,4 @@
-# @igniteui-sleduardodev/eslint-config
+# @igniteui-sleduardo20/eslint-config
 
 ## 2.0.0
 
