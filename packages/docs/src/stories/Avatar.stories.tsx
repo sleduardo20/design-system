@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@ignite-ui/react'
+import { Avatar, AvatarProps } from '@igniteui-sleduardo20/react'
 
 export default {
   title: 'Data Display/Avatar',
