@@ -39,7 +39,7 @@ export const Primary: StoryObj<ButtonProps> = {}
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
-    children: 'Create New',
+    children: 'Create new user',
   },
 }
 
