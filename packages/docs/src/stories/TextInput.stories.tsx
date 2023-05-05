@@ -1,5 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@igniteui-sleduardo20/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@igniteui-sleduardo20/react'
 
 export default {
   title: 'Form/TextInput',
@@ -34,6 +39,7 @@ export const Primary: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'call.com/',
+    placeholder: 'your-username',
   },
 }
 
